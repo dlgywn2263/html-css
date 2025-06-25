@@ -1,0 +1,14 @@
+.Facebook {
+  background-color: #1877f2;
+  color: white;
+  border: 1px solid #1877f2;
+  border-radius: 5px;
+  padding: 5px 50px 5px 5px;
+}
+.Apple {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 50px 5px 5px;
+}
