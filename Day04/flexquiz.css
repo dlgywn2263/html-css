@@ -1,0 +1,39 @@
+.mini {
+  width: 100px;
+  height: 100px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.a {
+  background-color: red;
+}
+.b {
+  background-color: orange;
+}
+
+.c {
+  background-color: yellow;
+}
+.d {
+  background-color: green;
+}
+.e {
+  background-color: blue;
+}
+.f {
+  background-color: purple;
+}
+.g {
+  background-color: pink;
+}
+.f {
+  background-color: black;
+}
