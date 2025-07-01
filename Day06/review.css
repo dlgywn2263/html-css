@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  background-image: url("a.jfif");
+  background-size: cover;
+  border-radius: 10px;
+  padding: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.bg1 {
+  background-image: url("b.jfif");
+}
+.bg2 {
+  background-image: url("c.jfif");
+}
+.bg3 {
+  background-image: url("d.jfif");
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.subtittle {
+  font-size: 20px;
+  color: grey;
+  margin-bottom: 15px;
+}
+.category {
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.name {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+}
+.info {
+  font-size: 10px;
+  color: antiquewhite;
+}

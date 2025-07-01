@@ -1,0 +1,38 @@
+.box {
+  width: 200px;
+  height: 200px;
+}
+.a {
+  background-color: #d6a2e8;
+}
+.b {
+  z-index: 2;
+  background-color: #3b3b98;
+  position: relative;
+}
+.b > span {
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.c {
+  background-color: #f97f51;
+  position: relative;
+}
+.c > span {
+  color: white;
+  position: absolute;
+  right: 50px;
+  bottom: 30px;
+}
+.d {
+  background-color: #fc427b;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+body {
+  height: 300vh;
+}
