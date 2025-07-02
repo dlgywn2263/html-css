@@ -1,0 +1,55 @@
+section {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.a {
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 3px 0px 3px;
+  transition: all 0.5s;
+}
+.a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 99px;
+}
+.b {
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  transition: all 0.5s;
+}
+.b:hover {
+  background-color: black;
+  color: white;
+  border-radius: 99px;
+}
+
+.c {
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 3px 0px 3px;
+  transition: all 0.5s;
+}
+.c:hover {
+  background-color: black;
+  color: white;
+  border-radius: 99px;
+}
+.d {
+  background-color: transparent;
+  border-radius: 5px;
+  border: none;
+  padding: 0px 3px 0px 3px;
+  transition: all 0.5s;
+}
+.d:hover {
+  background-color: black;
+  color: white;
+  border-radius: 99px;
+}

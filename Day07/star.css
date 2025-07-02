@@ -1,0 +1,14 @@
+.s {
+  background-color: transparent;
+  border: 1px solid orange;
+  border-radius: 4px;
+  padding: 4px 10px 6px 10px;
+  color: orange;
+  transition: all 0.3s;
+}
+.s:hover {
+  background-color: orange;
+  color: beige;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

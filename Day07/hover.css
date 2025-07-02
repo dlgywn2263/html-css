@@ -1,0 +1,12 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: tomato;
+  /*변화가 일어나면 몇 초 걸리는지 제어하는 css*/
+  transition: all 5s;
+}
+.box:hover {
+  width: 500px;
+  height: 500px;
+  background-color: blue;
+}
