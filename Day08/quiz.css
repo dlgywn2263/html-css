@@ -1,0 +1,74 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.photo {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
+.photo > img:hover {
+  transform: scale(1.1);
+}
+
+.photo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+.circle {
+  background-color: blue;
+  border-radius: 9999px;
+  position: absolute;
+  right: 0%;
+  bottom: 3%;
+  color: white;
+
+  padding: 6px 10px 6px 10px;
+}
+.d {
+  position: relative;
+}
+.info {
+  width: 30px;
+  height: 30px;
+  background-color: skyblue;
+  border-radius: 9999px;
+
+  padding: 5px 0px 0px 0px;
+
+  position: absolute;
+  right: 20%;
+  bottom: 15%;
+  transition: all 0.3s;
+}
+.cc {
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.dd {
+  background-color: olive;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.info:hover {
+  transform: rotate(1.1);
+}
+.card > span {
+  font-size: 10px;
+}
