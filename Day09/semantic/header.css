@@ -1,7 +1,10 @@
 header {
   border-bottom: 1px solid #efefef;
   padding: 10px 0px;
-  position: relative;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: white;
 }
 nav {
   width: 100%;
@@ -11,24 +14,25 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .links {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+
   gap: 10px;
 }
-.links > button {
+.links > li {
   border: none;
   padding: 14px 16px;
   border-radius: 20px;
   font-weight: bold;
   background-color: transparent;
 }
-.links > button:hover {
+.links > li:hover {
   background-color: #efefef;
 }
 .pink {
-  color: red;
+  color: rgb(255, 83, 83);
 }

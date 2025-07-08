@@ -1,0 +1,48 @@
+.third > .contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.third > .contents > h6 {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.third > .contents > h4 {
+  font-size: 32px;
+  color: #1f1f1f;
+  line-height: 1.3;
+  font-family: "Paperlogy-8ExtraBold";
+}
+.third > .contents > .deck {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.third > .contents > .deck > .card {
+  width: 100%;
+  height: 480px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+  position: relative;
+}
+.third > .contents > .deck > .card > .cellpane {
+  position: absolute;
+  top: 0;
+}
+.firstimage {
+  background-image: url(images/b.jfif);
+  background-size: cover;
+}
+.secondimage {
+  background-image: url(images/c.jfif);
+  background-size: cover;
+}
