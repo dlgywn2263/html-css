@@ -1,0 +1,45 @@
+.first {
+  background-image: url(../image/main1.avif);
+  background-size: cover;
+  height: 100vh;
+  padding: 0px 48px 64px;
+  position: relative;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: absolute;
+  bottom: 64px;
+}
+.contents > .pre-title {
+  font-size: 18px;
+  color: #ffff;
+}
+.contents > .main-title {
+  font-size: 52px;
+  color: #ffff;
+  font-weight: bold;
+}
+.contents > .btn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+button {
+  padding: 16px 24px;
+  font-size: 14px;
+}
+.a {
+  background-color: #ffff;
+  color: #05141f;
+}
+.b {
+  background-color: #05141f;
+  color: #ffff;
+}
+.AI {
+  width: 50px;
+  height: 50px;
+}
