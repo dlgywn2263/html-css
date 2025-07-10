@@ -1,5 +1,4 @@
 header {
-  padding: 20px 0;
   background-color: transparent;
   position: absolute;
   top: 0px;
@@ -9,29 +8,59 @@ header {
 
 nav {
   padding: 20px 25px 0;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1600px;
+
+  max-width: 1200px;
   margin: 0 auto;
 }
 .links {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  align-items: center;
+  gap: 40px;
   font-size: 18px;
   font-weight: bold;
   color: #ffff;
 }
+.logo {
+  width: 80px;
+}
+
 .login {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+
+  align-items: center;
+  gap: 40px;
   font-size: 16px;
   font-weight: bold;
   color: #ffff;
 }
-.logo {
-  font-size: 50px;
+.LOGO {
+  display: none;
+}
+.nav {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .links {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .LOGO {
+    display: block;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: #ffff;
+  }
 }

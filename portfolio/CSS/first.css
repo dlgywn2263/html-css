@@ -26,11 +26,13 @@
   flex-direction: row;
   gap: 10px;
 }
-
-button {
+.btn > button {
   padding: 16px 24px;
   font-size: 14px;
+  border: none;
+  margin-top: 30px;
 }
+
 .a {
   background-color: #ffff;
   color: #05141f;
@@ -38,8 +40,45 @@ button {
 .b {
   background-color: #05141f;
   color: #ffff;
+  margin: 0px 0px 0px 16px;
 }
 .AI {
-  width: 50px;
-  height: 50px;
+  width: 56px;
+  height: 56px;
+  background-color: #ffff;
+  border-radius: 9999px;
+  padding: 10px;
+  font-size: 35px;
+  color: rgb(180, 179, 179);
+}
+.icon {
+  position: absolute;
+  right: 48px;
+  bottom: 68px;
+}
+.btn-scroll {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+
+  position: absolute;
+  left: 40%;
+  bottom: 40px;
+}
+.btn-scroll > button {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+  border: none;
+  color: transparent;
+}
+@media screen and (max-width: 1024px) {
+  .contents > .pre-title {
+    font-size: 14px;
+  }
+  .contents > .main-title {
+    font-size: 32px;
+  }
 }
