@@ -1,0 +1,28 @@
+.second{
+    height: 100vh;
+}
+.title{
+    margin: 100px 0px 30px;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.scroll-menu{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 1px solid #efefef;
+    font-size: 20px;
+    color: #697278;
+}
+.deck{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    width: 412px;
+    height: 840px;
+    border: 1px solid #efefef;
+}
